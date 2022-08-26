@@ -38,7 +38,6 @@ int main()
     }
 
     printf("true");
-    // adding a comment just because
 
     return 0;
 }
