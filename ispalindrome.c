@@ -19,12 +19,13 @@ int main()
             input[count++] = input[i];
         }
     }
+    
     input[count] = '\0';
 
+    // compare letters from outside in
     int i = 0;
     int j = strlen(input) - 1;
 
-    // compare letters from outside in
     while (j > i)
     {
         if (input[i] != input[j])
