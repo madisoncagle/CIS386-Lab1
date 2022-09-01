@@ -32,13 +32,10 @@ int main(int argc, char *argv[]) //
         printf("true");
         return 0;
     }
-    
 
     // find prime factors
     for (int i = 1; i < num; i++)
     {
-        // printf("%d %% %d = %d\n", num, i, num % i);
-
         if (num % i == 0) // is a factor
         {
             if (isprime(i)) // is prime
@@ -59,7 +56,7 @@ int main(int argc, char *argv[]) //
         printf("false");
         return 0;
     }
-    
+
     printf("true");
 
     return 0;
