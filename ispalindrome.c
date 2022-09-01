@@ -19,7 +19,7 @@ int main()
             input[count++] = input[i];
         }
     }
-    
+
     input[count] = '\0';
 
     // compare letters from outside in
@@ -33,7 +33,7 @@ int main()
             printf("false");
             return 0;
         }
-        
+
         i++;
         j--;
     }
